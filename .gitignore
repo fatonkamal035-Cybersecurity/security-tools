@@ -1,0 +1,107 @@
+# ================================
+# Security / Secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+credentials/
+*.secret
+
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+ENV/
+env/
+
+# ================================
+# Node.js
+# ================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ================================
+# Go
+# ================================
+
+*.test
+*.out
+
+# ================================
+# Rust
+# ================================
+
+target/
+
+# ================================
+# Java
+# ================================
+
+*.class
+target/
+
+# ================================
+# Build / Distribution
+# ================================
+
+dist/
+build/
+*.egg-info/
+
+# ================================
+# Coverage / Test Artifacts
+# ================================
+
+coverage/
+reports/
+test-results/
+
+# ================================
+# Operating System
+# ================================
+
+.DS_Store
+Thumbs.db
+
+# ================================
+# Editors / IDEs
+# ================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.log
+.cache/
